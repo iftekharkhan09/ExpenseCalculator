@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_31">
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
-		<attributes>
-			<attribute name="owner.project.facets" value="jst.web"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/activation-1.0.2.jar/activation-1.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/mysql-connector-java-5.1.6-bin.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/mail-3.0.2-sources.jar/mail-3.0.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/jcommon-1.0.23.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/jfreechart-1.0.19-experimental.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/jfreechart-1.0.19-swt.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/jfreesvg-2.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/junit-4.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/orsoncharts-1.4-eval-nofx.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/orsonpdf-1.6-eval.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/servlet.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/lib/swtgraphics2d.jar"/>
-	<classpathentry kind="lib" path="C:/Users/iftekhar/Desktop/Desktop/Des/Desktop_Latest/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar"/>
-	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME"/>
+	<classpathentry kind="var" path="M2_REPO"/>
+	<classpathentry kind="var" path="M2_Mysql"/>
+	<classpathentry kind="var" path="M2_POI"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
