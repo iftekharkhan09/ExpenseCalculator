@@ -17,7 +17,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="ECLIPSE_HOME"/>
 	<classpathentry kind="var" path="M2_REPO"/>
 	<classpathentry kind="var" path="M2_Mysql"/>
 	<classpathentry kind="var" path="M2_POI"/>
